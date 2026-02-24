@@ -13,4 +13,4 @@ def test_consultar_banco_dados():
 def test_endpoint_chat_erro_sem_body():
     # Testa se a API rejeita requisições mal formadas
     response = client.post("/chat")
-    assert response.status_code == 422 # Unprocessable Entity
+    assert response.status_code == 422 

@@ -63,7 +63,7 @@ function App() {
   return (
     <div className="chat-container">
       <header className="chat-header">
-        <h1>Assistente Virtual SQLite</h1>
+        <h1>FlowStock AI</h1>
       </header>
       
       <div className="chat-messages">
